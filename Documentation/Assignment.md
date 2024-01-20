@@ -1,5 +1,7 @@
 # ECEN-361 Lab-06:ADC, PWM, and DAC
 
+     Student Name:  Fill-in HERE
+
 ## Introduction and Objectives of the Lab
 
 This project will reinforce the learned concepts in analog-to-digital conversion (ADC), digital-to-analog conversion (DAC) and pulse-width-modulation (PWM), a form of digital-to-analog output. Each of these functions are supported on most µControllers and will be demonstrated with the STM32-Nucleo board.
