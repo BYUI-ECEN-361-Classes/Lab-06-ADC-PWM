@@ -105,7 +105,7 @@ Using the DisplayMode button and the StartStop button, empirically determine the
 
 Which approach would work for approximating a sine-wave output? PWM or DAC? Why?  <mark>[*answer here*]</mark>
 
-### Extra Credit (5 pts maximum)
+## Ideas for Credit to get to 'A' & Extra-Credit (2 pts for any)
 
 * This code uses the ADC in a blocking mode. Change the ADC to sample via an interrupt instead. Show some of the code changes that need to be made:
   
