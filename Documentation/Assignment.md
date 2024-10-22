@@ -77,7 +77,7 @@ Now predict and verify the smallest sample resolution being detected.
 
 Use a digital input on your logic analyzer and the DisplayMode and Start/Stop button.
 
-Measure the D2_LED output at a different duty-cycle points. The duty cycle is shown on the 7-Segment LED or the TTY terminal output when stopped.
+Measure the D4_LED output at a different duty-cycle points. The duty cycle is shown on the 7-Segment LED or the TTY terminal output when stopped.
 
 * Does the duty cycle shown match the waveform?  List the measured times  (high vs low)
   
@@ -89,7 +89,7 @@ Use a voltmeter (or the Analog input on a Saleae Analyzer) and the DisplayMode a
 
 Measure a few points on the D1_LED output. Do they match with estimation shown on the 7-segment display (you can also look at the value printed on the TTY Terminal output when the cycle is stopped)?  
 
-List a couple of the measurements (12-bit DAC, 5V range).
+List a couple of the measurements (12-bit DAC, 3.3V range).
 
 * Reported Voltage: <mark>[*answer here*]</mark>  Measured Voltage: <mark>[*answer here*]</mark> 
 * Reported Voltage: <mark>[*answer here*]</mark>  Measured Voltage: <mark>[*answer here*]</mark> 
@@ -115,7 +115,7 @@ Which approach would work for approximating a sine-wave output? PWM or DAC? Why?
   
    <mark>[*answer here*]</mark>
 
-* What is the maximum sample rate, given the current clocking scheme, for: the least-precise (6-bit) and most precise (12-bit) conversions?
+* Modify the code, so that the PWM output will be based on the input from the potentiometer. What changes are needed to link the ADC value to the PWM duty cycle? Show some of the code changes that need to be made:
   
    <mark>[*answer here*]</mark>
 
