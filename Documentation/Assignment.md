@@ -73,6 +73,11 @@ Now predict and verify the smallest sample resolution being detected.
   
    Predicted: <mark>[*answer here*]</mark>    Actual Seen: <mark>[*answer here*]</mark>
 
+
+* What is the maximum sample rate, given the current clocking scheme, for: the least-precise (6-bit) and most precise (12-bit) conversions?
+
+<mark>[*answer here*]</mark>
+
 ### PWM (2 pts)
 
 Use a digital input on your logic analyzer and the DisplayMode and Start/Stop button.
@@ -111,14 +116,15 @@ Which approach would work for approximating a sine-wave output? PWM or DAC? Why?
   
    <mark>[*answer here*]</mark>
 
-* What is the maximum sample rate, given the current clocking scheme, for: the least-precise (6-bit) and most precise (12-bit) conversions?
-  
-   <mark>[*answer here*]</mark>
 
 * Modify the code, so that the PWM output will be based on the input from the potentiometer. What changes are needed to link the ADC value to the PWM duty cycle? Show some of the code changes that need to be made:
   
    <mark>[*answer here*]</mark>
 
 * The Seven-Segment display using a type of PWM by refreshing each of the four segments in turn.  As given you, it goes fast enough that it looks to be 100% brightness.  Change the parameters of the refresh Timer (Timer17) with a parameter so that the apparent intensity of this display can be dimmed.
+  
+   <mark>[*answer here*]</mark>
+
+* Modify the code so that the ADC only updates when Button_3 is pressed. Explain how you achieved this.
   
    <mark>[*answer here*]</mark>
